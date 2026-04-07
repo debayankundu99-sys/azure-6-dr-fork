@@ -5,11 +5,11 @@
 # Windows PowerShell Version
 # ============================================================
 
-Set-StrictMode -Version Latest
-$ErrorActionPreference = "Stop"
+Set-StrictMode = Version Latest
+
 
 # ── Helpers ──────────────────────────────────────────────────
-function Write-Header { param($msg)
+function Write-Header {param($msg)}
     Write-Host ""
     Write-Host "═══════════════════════════════════════" -ForegroundColor Blue
     Write-Host "  $msg" -ForegroundColor Blue
