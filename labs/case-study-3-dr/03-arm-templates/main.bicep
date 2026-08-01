@@ -21,7 +21,7 @@ param adminUsername string = 'azureadmin'
 param adminPassword string
 
 @description('VM size for web and app tier')
-@allowed(['Standard_B2ms', 'Standard_B1ms', 'Standard_B4ms', 'Standard_D2_v3', 'Standard_DS1_v2'])
+@allowed(['Standard_B2ms', 'Standard_B1ms', 'Standard_B4ms', 'Standard_D2_v3', 'Standard_DS1_v2', 'Standard_B2s'])
 param vmSize string = 'Standard_B2s'
 
 @description('Storage account SKU')
